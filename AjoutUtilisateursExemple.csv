@@ -1,0 +1,4 @@
+NOM,PRENOM,INITIALES,Username,EMAIL,SERVICE,Position,Password,OU
+Matin,Martin,MM,martin.matin,martin.matin@gsb.com,DIRECTION,CEO,Welc0meGSB!,"OU=Direction,OU=Utlisateurs,OU=GSB,DC=galaxy-swiss,DC=com"
+Norman,Gerard,NG,gerard.norman,gerard.norman@GSB.com,DIRECTION,Employé,Welc0meGSB!,"OU=Direction,OU=Utlisateurs,OU=GSB,DC=galaxy-swiss,DC=com"
+Dupont,Robert,RD,robert.dupont,robert.dupont@gsb.com,DIRECTION,Employé,Welc0meGSB!,"OU=Direction,OU=Utlisateurs,OU=GSB,DC=galaxy-swiss,DC=com"
