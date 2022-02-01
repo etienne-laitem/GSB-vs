@@ -57,3 +57,5 @@ foreach ($User in $UtilisateursAD) {
     }
 }
 Read-Host -Prompt "Appuyez sur entrée pour quitter."
+
+#YOLO
