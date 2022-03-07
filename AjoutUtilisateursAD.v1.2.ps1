@@ -50,7 +50,7 @@ foreach ($User in $UtilisateursAD) {
             -Department $service `
             -AccountPassword (ConvertTo-secureString $password -AsPlainText -Force) -ChangePasswordAtLogon $True
         # Ajout de l'utilisateur dans groupe
-        Add-ADGroupMember -Identity $service -Members $username       
+        Add-ADGroupMember -Identity service_$service -Members $username       
         # Affichage message de confirmation
         Write-Host "Le compte $username a été cree." -ForegroundColor Cyan
         Write-Host "Le compte $username a ete ajoute au groupe"
